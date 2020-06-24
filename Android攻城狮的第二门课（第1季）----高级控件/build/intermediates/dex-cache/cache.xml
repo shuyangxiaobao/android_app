@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/httpmime-4.4.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="54646f004d5b4c37a5a75b1d416c59a3075204e2">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/commons-collections-3.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aa12980fe4eca7331a660bdeed371d024687c68d">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/commons-logging.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="760c711c71588bc273d3e56d196d720a7678cd93">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/ezmorph-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ccb9a6aa111d9a2ca773418d7c2641ba7e2767a5">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/jackson-annotations-2.2.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/httpcore-4.4.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e9b3863fd9c8a273ceed4a7fae10f40bb10a2328">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/json-lib-1.1-jdk13.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="23cfe22ad1146562d64299f52141009bbb111e67">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/gson-2.6.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="682f09dfa4bcca1ba8d593a301b34223800d8ae6">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/commons-beanutils.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b1f08524770aaeb3f9c24a565dc3c05ff1d7a7a0">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/jackson-databind-2.2.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/httpclient-4.5.9.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a25c1be5ce99d0ce99aa43eb982868c796dd0775">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/commons-lang-2.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4763ecc9d78781c915c07eb03e90572c7ff04205">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/src/libs/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/Users/xiaobao/Git/安卓项目/Android攻城狮的第二门课（第1季）----高级控件/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+
+</items>

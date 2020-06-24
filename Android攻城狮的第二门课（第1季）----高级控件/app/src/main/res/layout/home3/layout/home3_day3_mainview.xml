@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第3章 数据存储之文件存储"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建文件"
+        android:id="@+id/home3_day3_btn"
+        />
+
+    <EditText
+        android:id="@+id/home2_day3_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/home3_day3_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入并读取出来" />
+
+
+</LinearLayout>

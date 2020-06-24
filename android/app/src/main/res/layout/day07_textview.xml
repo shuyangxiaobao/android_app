@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123456789 123456789097654321234567895432345678976543456789"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/textview2"
+
+        android:layout_below="@id/textview1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123456789 123456789097654321234567895432345678976543456789"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        />
+
+    <com.example.xiaobao.myapplication.MarqueeText
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123456789 123456789097654321234567895432345678976543456789"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        tools:ignore="InvalidId" />
+
+    <com.example.xiaobao.myapplication.MarqueeText
+        android:id="@+id/textview4"
+        android:layout_below="@id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123456789 123456789097654321234567895432345678976543456789"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        />
+</LinearLayout>
