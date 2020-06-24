@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/home5_day3_item_imageview"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/day11_pic4" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/home5_day3_item_imageview">
+
+        <TextView
+            android:id="@+id/home5_day3_itemtextview1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="1111"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/home5_day3_itemtextview2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@id/home5_day3_itemtextview1"
+            android:text="1111"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/home5_day3_itemtextview3"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@id/home5_day3_itemtextview2"
+            android:text="1111"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/home5_day3_itemtextview4"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@id/home5_day3_itemtextview3"
+            android:text="1111"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

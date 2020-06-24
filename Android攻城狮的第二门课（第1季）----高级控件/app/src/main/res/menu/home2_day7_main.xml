@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home2_day7_main_menutitle1"
+        android:orderInCategory="100"
+        android:title="复制1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/home2_day7_main_menutitle2"
+        android:orderInCategory="100"
+        android:title="粘贴2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/home2_day7_main_menutitle3"
+        android:orderInCategory="100"
+        android:title="剪切3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/home2_day7_main_menutitle4"
+        android:orderInCategory="100"
+        android:title="重命名4"
+        app:showAsAction="never" />
+
+</menu>

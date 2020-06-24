@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    >
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
+
+<!--
+
+ LinearLayout本身常用到得俩个属性
+
+    android:orientation= "vertical"   // vertical  horizontal
+
+    该属性决定他子类控件的排布方式( vertical:垂直; horizontal:z水平)
+    android:gravity= "center
+
+    该属性决定他子类的xy的位置
+
+    常用到的几个属性值:
+
+    1 > center _vertical:垂直( Y轴)居中)
+
+    2 >center_ horizontal:水K平( X轴)居中
+
+    3 > center:水平垂直都居中
+
+    4 > right:子类控件位于当前布局的右边
+
+    5 >left子类控件位于当前布局的左边
+
+    6 > bottom:子类控件位于当前布局的下面
+
+-->
+

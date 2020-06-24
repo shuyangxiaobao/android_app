@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/white_bg"
+        android:editable="true"
+        android:gravity="right|bottom"
+        android:text="44" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/day21_button1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="bottom|right"
+            android:text="C"
+            android:background="@drawable/white_selector"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="DEL"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="/"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="x"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/day21_button5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="bottom|right"
+            android:text="7"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="8"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="9"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="-"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/day21_button9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="bottom|right"
+            android:text="4"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="5"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="6"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/day21_button12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10pt"
+            android:gravity="bottom|right"
+            android:text="+"
+            android:background="@drawable/white_selector"
+
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="0dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:gravity="bottom|right"
+                    android:background="@drawable/white_selector"
+
+                    android:text="1" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:gravity="bottom|right"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/white_selector"
+
+                    android:text="2" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="bottom|right"
+                    android:background="@drawable/white_selector"
+
+
+                    android:text="3" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:gravity="bottom|right"
+                    android:background="@drawable/white_selector"
+
+                    android:text="0" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="bottom|right"
+                    android:background="@drawable/white_selector"
+
+                    android:text="." />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="60dp"
+
+            android:layout_height="140dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom|right"
+            android:background="@drawable/orange_selector"
+
+            android:text="=" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

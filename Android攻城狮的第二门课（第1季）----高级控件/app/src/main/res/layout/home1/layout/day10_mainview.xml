@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/day10_mainview_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <!--
+                android:layout_gravity="bottom"
+                android:layout_gravity="top"
+        -->
+
+        <!--<android.support.v4.view.PagerTabStrip-->
+            <!--android:id="@+id/day10_mainview_tab"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top">-->
+
+        <!--</android.support.v4.view.PagerTabStrip>-->
+
+
+        <!--
+        使用 PagerTitleStrip 后 PagerTabStrip 就会失效
+        -->
+        <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/day10_mainview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#777777">
+
+        </android.support.v4.view.PagerTitleStrip>
+
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>
