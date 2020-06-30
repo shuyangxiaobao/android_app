@@ -35,15 +35,15 @@ public class home4_MainActivity extends AppCompatActivity implements AdapterView
     public void demo1() {
         listView = (ListView) findViewById(R.id.listview);
         arr_data = new ArrayList<String>();
-        arr_data.add("1.Handler post(Runnable)");
-        arr_data.add("2.Handler postDelayed(Runnable, long);");
-        arr_data.add("3.sendMessage");
-        arr_data.add("4.sendMessageDelayed");
-        arr_data.add("5.Handler与子线程");
-        arr_data.add("第6章 主线程与子线程之间的信息交互");
-        arr_data.add("第7章 解析Android中更新UI的几种方式");
-        arr_data.add("第8章 非UI线程真的不能更新UI吗");
-        arr_data.add("第9章 终章：使用Handler时候遇到的问题");
+        arr_data.add("4.1.Handler post(Runnable)");
+        arr_data.add("4.2.Handler postDelayed(Runnable, long);");
+        arr_data.add("4.3.sendMessage");
+        arr_data.add("4.4.sendMessageDelayed");
+        arr_data.add("4.5.Handler与子线程");
+        arr_data.add("4.6 第6章 主线程与子线程之间的信息交互");
+        arr_data.add("4.7 第7章 解析Android中更新UI的几种方式");
+        arr_data.add("4.8 第8章 非UI线程真的不能更新UI吗");
+        arr_data.add("4.9 第9章 终章：使用Handler时候遇到的问题");
 
 
 

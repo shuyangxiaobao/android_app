@@ -34,14 +34,14 @@ public class home2_MainActivity extends AppCompatActivity implements AdapterView
     public void demo1() {
         listView = (ListView) findViewById(R.id.listview);
         arr_data = new ArrayList<String>();
-        arr_data.add("第1章 使用Debug方式调试程序");
-        arr_data.add("第2章 使用LogCat方式调试程序");
-        arr_data.add("第3章 使用Toast动态显示信息");
-        arr_data.add("第4章 使用AlertDialog实现提示框");
-        arr_data.add("第5章 使用Notification实现状态通知栏的通知");
-        arr_data.add("第6章 使用OptionsMenu实现选项菜单");
-        arr_data.add("第7章 使用ContextMenu实现上下文菜单");
-        arr_data.add("第8章 使用SubMenu创建子菜单");
+        arr_data.add("2.1 第1章 使用Debug方式调试程序");
+        arr_data.add("2.2 第2章 使用LogCat方式调试程序");
+        arr_data.add("2.3 第3章 使用Toast动态显示信息");
+        arr_data.add("2.4 第4章 使用AlertDialog实现提示框");
+        arr_data.add("2.5 第5章 使用Notification实现状态通知栏的通知");
+        arr_data.add("2.6 第6章 使用OptionsMenu实现选项菜单");
+        arr_data.add("2.7 第7章 使用ContextMenu实现上下文菜单");
+        arr_data.add("2.8 第8章 使用SubMenu创建子菜单");
 
 
         arr_adapter = new ArrayAdapter<String>(this,

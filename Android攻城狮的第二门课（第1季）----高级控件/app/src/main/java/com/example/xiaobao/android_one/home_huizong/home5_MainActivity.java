@@ -37,12 +37,12 @@ public class home5_MainActivity extends AppCompatActivity implements AdapterView
     public void demo1() {
         listView = (ListView) findViewById(R.id.listview);
         arr_data = new ArrayList<String>();
-        arr_data.add("1. HttpUrlConnection介绍");
-        arr_data.add("2. post、get传递参数（上）");
-        arr_data.add("3. 加载json数据，显示列表");
-        arr_data.add("4. xml解析");
-        arr_data.add("5. 3-1 android多线程下载网络图片");
-        arr_data.add("6. 3-3 http方式实现图片上传");
+        arr_data.add("5.1. HttpUrlConnection介绍");
+        arr_data.add("5.2. post、get传递参数（上）");
+        arr_data.add("5.3. 加载json数据，显示列表");
+        arr_data.add("5.4. xml解析");
+        arr_data.add("5.5. 3-1 android多线程下载网络图片");
+        arr_data.add("5.6. 3-3 http方式实现图片上传");
 
 
 

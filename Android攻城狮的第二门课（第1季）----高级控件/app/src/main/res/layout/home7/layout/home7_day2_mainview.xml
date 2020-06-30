@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/home7_day2_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="click"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/home7_day2_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home7_day2_imageView"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@id/home7_day2_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home7_day2_imageView"
+            android:layout_marginLeft="0dp"
+            android:onClick="move"
+            android:text="move1"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@id/home7_day2_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/home7_day2_button1"
+            android:layout_alignBottom="@+id/home7_day2_button1"
+            android:layout_toEndOf="@+id/home7_day2_button1"
+            android:layout_toRightOf="@+id/home7_day2_button1"
+            android:onClick="move"
+            android:text="move2"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:id="@id/home7_day2_button3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/home7_day2_button1"
+            android:layout_alignBottom="@+id/home7_day2_button1"
+            android:layout_toRightOf="@+id/home7_day2_button2"
+            android:onClick="move"
+            android:text="move3"
+            android:textAllCaps="false" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@id/home7_day2_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/home7_day2_button1"
+            android:layout_alignBottom="@+id/home7_day2_button1"
+            android:layout_toRightOf="@+id/home7_day2_button3"
+            android:onClick="move"
+            android:text="move4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home7_day2_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home7_day2_layout1"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@id/home7_day2_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="move"
+            android:text="move5" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@id/home7_day2_button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="move"
+            android:text="move6" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@id/home7_day2_button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="move"
+            android:text="move7" />
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@id/home7_day2_button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="move"
+            android:text="move8" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

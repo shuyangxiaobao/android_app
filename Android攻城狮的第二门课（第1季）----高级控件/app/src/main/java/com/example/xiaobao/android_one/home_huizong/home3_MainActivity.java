@@ -38,16 +38,16 @@ public class home3_MainActivity extends AppCompatActivity implements AdapterView
     public void demo1() {
         listView = (ListView) findViewById(R.id.listview);
         arr_data = new ArrayList<String>();
-        arr_data.add("第0章 四大组件之Activity");
-        arr_data.add("第1章 数据存储之SharedPreferences");
-        arr_data.add("第2章 数据存储之SQLite");
-        arr_data.add("第3章 数据存储之文件存储");
-        arr_data.add("第4章 四大组件之ContentProvider");
-        arr_data.add("第5章 四大组件之BroadcastReceiver");
-        arr_data.add("第6章 四大组件之Service");
-        arr_data.add("第7章 Android中常用的系统服务");
-        arr_data.add("第8章 使用GestureDetector进行手势识别");
-        arr_data.add("第9章 使用GestureOverlayView进行手势识别");
+        arr_data.add("3.0 第0章 四大组件之Activity");
+        arr_data.add("3.1 第1章 数据存储之SharedPreferences");
+        arr_data.add("3.2 第2章 数据存储之SQLite");
+        arr_data.add("3.3 第3章 数据存储之文件存储");
+        arr_data.add("3.4 第4章 四大组件之ContentProvider");
+        arr_data.add("3.5 第5章 四大组件之BroadcastReceiver");
+        arr_data.add("3.6 第6章 四大组件之Service");
+        arr_data.add("3.7 第7章 Android中常用的系统服务");
+        arr_data.add("3.8 第8章 使用GestureDetector进行手势识别");
+        arr_data.add("3.9 第9章 使用GestureOverlayView进行手势识别");
 
 
 

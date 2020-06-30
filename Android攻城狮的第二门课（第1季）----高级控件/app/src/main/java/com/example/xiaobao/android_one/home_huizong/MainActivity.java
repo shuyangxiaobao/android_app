@@ -27,13 +27,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.root);
         demo1();
-
-
-
-
-
-        
-
     }
 
     public void demo1() {
@@ -46,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         arr_data.add("home4：Android面试常客Handler详解");
         arr_data.add("home5：Android中的Http通信");
         arr_data.add("home6：ListView的常见使用模式");
+        arr_data.add("home7：Android动画基础");
 
         
 
@@ -87,6 +81,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             }
             case 5: {
                 Intent intent = new Intent(MainActivity.this, home5_MainActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            }
+            case 6: {
+                Intent intent = new Intent(MainActivity.this, home6_MainActivity.class);
+                MainActivity.this.startActivity(intent);
+                break;
+            }
+            case 7: {
+                Intent intent = new Intent(MainActivity.this, home7_MainActivity.class);
                 MainActivity.this.startActivity(intent);
                 break;
             }

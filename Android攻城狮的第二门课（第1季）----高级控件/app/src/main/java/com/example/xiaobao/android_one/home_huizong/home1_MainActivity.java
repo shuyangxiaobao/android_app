@@ -47,21 +47,21 @@ public class home1_MainActivity extends AppCompatActivity implements AdapterView
     public void demo1() {
         listView = (ListView) findViewById(R.id.listview);
         arr_data = new ArrayList<String>();
-        arr_data.add("第1章 解读AndroidManifest配置文件");
-        arr_data.add("第2章 使用ListView显示信息列表");
-        arr_data.add("第3章 使用DatePicker以及TimePicker显示当前日期和时间");
-        arr_data.add("第4章 使用GridView以表格形式显示多张图片");
-        arr_data.add("第5章 使用Spinner实现下拉列表");
-        arr_data.add("第6章 使用ProgressBar实现进度条");
-        arr_data.add("第7章 使用WebView显示网页");
-        arr_data.add("第8章 Fragment基础概述");
-        arr_data.add("第9章 Fragment与Activity通信");
-        arr_data.add("第10章 使用ViewPager实现导航");
-        arr_data.add("第11章 使用ViewFlipper实现屏幕切换动画效果");
-        arr_data.add("第12章 使用ScrollView实现滚动效果");
-        arr_data.add("第13章 使用Gallery和ImageSwitcher制作图片浏览器");
-        arr_data.add("第14章 使用SeekBar制作可拖动的进度条");
-        arr_data.add("第15章 Android布局优化（大结局）");
+        arr_data.add("1.1 第1章 解读AndroidManifest配置文件");
+        arr_data.add("1.2 第2章 使用ListView显示信息列表");
+        arr_data.add("1.3 第3章 使用DatePicker以及TimePicker显示当前日期和时间");
+        arr_data.add("1.4 第4章 使用GridView以表格形式显示多张图片");
+        arr_data.add("1.5 第5章 使用Spinner实现下拉列表");
+        arr_data.add("1.6 第6章 使用ProgressBar实现进度条");
+        arr_data.add("1.7 第7章 使用WebView显示网页");
+        arr_data.add("1.8 第8章 Fragment基础概述");
+        arr_data.add("1.9 第9章 Fragment与Activity通信");
+        arr_data.add("1.10 第10章 使用ViewPager实现导航");
+        arr_data.add("1.11 第11章 使用ViewFlipper实现屏幕切换动画效果");
+        arr_data.add("1.12 第12章 使用ScrollView实现滚动效果");
+        arr_data.add("1.13 第13章 使用Gallery和ImageSwitcher制作图片浏览器");
+        arr_data.add("1.14 第14章 使用SeekBar制作可拖动的进度条");
+        arr_data.add("1.15 第15章 Android布局优化（大结局）");
 
 
         arr_adapter = new ArrayAdapter<String>(this,
