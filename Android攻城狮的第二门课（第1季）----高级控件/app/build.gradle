@@ -30,6 +30,19 @@ android {
     sourceSets {
         main{
             res.srcDirs = [
+                    'src/main/res/layout/home20',
+                    'src/main/res/layout/home19',
+                    'src/main/res/layout/home18',
+                    'src/main/res/layout/home17',
+                    'src/main/res/layout/home16',
+                    'src/main/res/layout/home15',
+                    'src/main/res/layout/home14',
+                    'src/main/res/layout/home13',
+                    'src/main/res/layout/home12',
+                    'src/main/res/layout/home11',
+                    'src/main/res/layout/home10',
+                    'src/main/res/layout/home9',
+                    'src/main/res/layout/home8',
                     'src/main/res/layout/home7',
                     'src/main/res/layout/home6',
                     'src/main/res/layout/home5',
@@ -44,6 +57,10 @@ android {
     }
 
 }
+
+apply plugin: 'com.android.application'
+
+def AAVersion = '4.7.0'
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
@@ -65,4 +82,7 @@ dependencies {
     implementation files('src/libs/httpcore-4.4.jar')
     implementation files('src/libs/httpmime-4.4.jar')
     implementation files('src/libs/httpclient-4.5.9.jar')
+    implementation 'com.android.volley:volley:1.1.1'
+    annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
 }

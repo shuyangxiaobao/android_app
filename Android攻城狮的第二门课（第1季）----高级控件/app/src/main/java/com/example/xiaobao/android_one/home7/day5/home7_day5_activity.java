@@ -30,7 +30,7 @@ public class home7_day5_activity extends Activity {
     }
 
     public void click(final View view) {
-        if (false) {
+        if (true) {
             final Button button = (Button) view;
             final ValueAnimator animator = ValueAnimator.ofInt(0, 100);
             animator.setDuration(30000);
