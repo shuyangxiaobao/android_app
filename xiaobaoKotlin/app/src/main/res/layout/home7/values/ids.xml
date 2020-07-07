@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home7_day2_button1" type="id" />
+    <item name="home7_day2_button2" type="id" />
+    <item name="home7_day2_button3" type="id" />
+    <item name="home7_day2_button4" type="id" />
+    <item name="home7_day2_button5" type="id" />
+    <item name="home7_day2_button6" type="id" />
+    <item name="home7_day2_button7" type="id" />
+    <item name="home7_day2_button8" type="id" />
+    <item name="home7_day3_button" type="id" />
+</resources>

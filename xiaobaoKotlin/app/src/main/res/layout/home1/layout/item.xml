@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25273D"
+    >
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="20dp"
+        android:layout_height="12dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+    
+    <ImageView
+        android:id="@+id/zhuli"
+        android:layout_width="20dp"
+        android:layout_height="12dp"
+        android:layout_alignLeft="@id/pic2"
+        android:layout_below="@id/pic2"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_toRightOf="@+id/pic2"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:text="345"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_toRightOf="@+id/text2"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="67dp"
+        android:textColor="#0BEB96"
+        android:textSize="16dp"
+        android:text="6933"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/day11_pic2"
+            android:gravity="center"
+            >
+        </bitmap>
+    </item>
+
+    <item
+        android:top="150dp"
+        android:left="150dp"
+        >
+        <bitmap android:src="@drawable/snip20200605_41"
+            android:gravity="left|top"
+            >
+        </bitmap>
+    </item>
+
+
+</layer-list>
+
+
+<!--
+    android:antialias="true"  抗锯齿
+
+
+-->

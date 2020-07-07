@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.xiaobao.xiaobaokotlin.home12.day7.MyViews
+        android:id="@+id/activity_myview_myview"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <View
+        android:id="@+id/activity_myview_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/activity_myview_linearlayout"
+        android:background="#55CCCCCC"/>
+
+
+    <LinearLayout
+        android:id="@+id/activity_myview_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+
+        <TextView
+            android:id="@+id/activity_myview_textview1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="重置"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#55CCCCCC"/>
+
+
+        <TextView
+            android:id="@+id/activity_myview_textview2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="左倾"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#55CCCCCC"/>
+
+
+        <TextView
+            android:id="@+id/activity_myview_textview3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="右倾"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#55CCCCCC"/>
+
+
+        <TextView
+            android:id="@+id/activity_myview_textview4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="放大"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#55CCCCCC"/>
+
+
+        <TextView
+            android:id="@+id/activity_myview_textview5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="缩小"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

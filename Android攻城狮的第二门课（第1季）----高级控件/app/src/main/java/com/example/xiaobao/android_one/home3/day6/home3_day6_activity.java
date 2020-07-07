@@ -61,6 +61,8 @@ public class home3_day6_activity extends Activity implements View.OnClickListene
         findViewById(R.id.home3_day6_button5).setOnClickListener(this);
         findViewById(R.id.home3_day6_button6).setOnClickListener(this);
         findViewById(R.id.home3_day6_button7).setOnClickListener(this);
+        findViewById(R.id.home3_day6_button8).setOnClickListener(this);
+
     }
 
     public void doclick(View view){
@@ -71,15 +73,20 @@ public class home3_day6_activity extends Activity implements View.OnClickListene
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.home3_day6_button1:{
-                intent1 = new Intent(this,MyStartService.class);
+                //启动服务
+                intent1 = new Intent(this,MyBindService.class);
                 startService(intent1);
                 break;
             }
             case R.id.home3_day6_button2:{
+                //暂停服务
+                intent1 = new Intent(this,MyBindService.class);
                 stopService(intent1);
                 break;
             }
             case R.id.home3_day6_button3:{
+                // 绑定服务
+                // 如果服务不存在
                 intent2 = new Intent(this,MyBindService.class);
                 bindService(intent2,conn, Service.BIND_AUTO_CREATE);
                 break;
@@ -101,6 +108,7 @@ public class home3_day6_activity extends Activity implements View.OnClickListene
                 break;
             }
             case R.id.home3_day6_button8:{
+                // 解除绑定
                 unbindService(conn);
                 break;
             }

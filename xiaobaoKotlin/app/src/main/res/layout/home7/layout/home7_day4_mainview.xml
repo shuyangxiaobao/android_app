@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:paddingLeft="100dp"
+    android:paddingTop="0dp"
+    >
+    <ImageView
+        android:id="@+id/home7_day4_image5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/day11_pic5"
+        />
+    <ImageView
+        android:id="@+id/home7_day4_image4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/day11_pic4"
+        />
+    <ImageView
+        android:id="@+id/home7_day4_image3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/day11_pic3"
+        />
+
+    <ImageView
+        android:id="@+id/home7_day4_image2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/day11_pic2"
+        />
+    <ImageView
+        android:id="@+id/home7_day4_image1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/day11_pic1"
+        />
+
+
+</FrameLayout>

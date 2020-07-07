@@ -18,12 +18,8 @@ import org.androidannotations.annotations.ViewById;
 @EActivity(R.layout.home12_day8_firstview)
 public class home12_day8_activity extends Activity {
 
-    @ViewById(R.id.imageView)
-    ImageView imageView;
-
-    @ViewById(R.id.layout)
-    LinearLayout linearLayout;
-
+    @ViewById(R.id.customView)
+    home12_day8_customview customView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +27,6 @@ public class home12_day8_activity extends Activity {
 
     @AfterViews
     public void init(){
-
-
+        customView.start();
     }
 }

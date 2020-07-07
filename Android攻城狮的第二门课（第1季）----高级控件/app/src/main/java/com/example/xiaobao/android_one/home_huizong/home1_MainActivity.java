@@ -162,8 +162,4 @@ public class home1_MainActivity extends AppCompatActivity implements AdapterView
 
         Toast.makeText(this, i+1+"", Toast.LENGTH_SHORT).show();
     }
-
-
-
-
 }

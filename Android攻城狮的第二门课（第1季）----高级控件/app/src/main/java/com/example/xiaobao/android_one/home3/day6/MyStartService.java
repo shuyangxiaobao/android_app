@@ -15,7 +15,7 @@ static String TAG = "MyStartService";
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.i(TAG, "onCreate: ");
+        Log.i(TAG, "onCreate: 服务创建了");
     }
 
     @Override
@@ -25,17 +25,28 @@ static String TAG = "MyStartService";
     }
 
     @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.i(TAG, "onStartCommand: 服务启动了");
+        return super.onStartCommand(intent, flags, startId);
+    }
+
+    @Override
     public void onDestroy() {
         super.onDestroy();
-        Log.i(TAG, "onDestroy: ");
+        Log.i(TAG, "onDestroy: 服务销毁了");
     }
 
 
     @Override
     public IBinder onBind(Intent intent) {
-        Log.i(TAG, "onBind: ");
+        Log.i(TAG, "onBind: 服务绑定了");
         return null;
 
     }
 
+    @Override
+    public boolean onUnbind(Intent intent) {
+        Log.i(TAG, "onUnbind: 服务解绑了");
+        return super.onUnbind(intent);
+    }
 }

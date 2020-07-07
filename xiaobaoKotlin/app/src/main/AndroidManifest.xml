@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xiaobao.xiaobaokotlin"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <!--网络权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <!--android:theme="@style/Theme.AppCompat.NoActionBar"-->
+    <!--android:networkSecurityConfig="@menu/network_security_config"-->
+    <!--android:usesCleartextTraffic="true"-->
+
+
+    <!--android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"-->
+
+    <application
+        android:name=".home10.day1.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true"
+
+
+        >
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".home_huizong.home1_MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".home_huizong.home2_MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN2" />
+
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".home_huizong.home3_MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN3" />
+
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".home1.day01_Activity">
+            <intent-filter>
+                <action android:name="day01" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".home1.day02_activity">
+            <intent-filter>
+                <action android:name="day02" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home1.day03_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day03" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day04_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day04" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day05_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day05" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day06_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day06" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day7.day07_webview_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day07" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day08_fragment.day08_fragment_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day08" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day08_fragment.day08_activity2"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day08_activity2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day08_fragment.day08_activity3"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day08_activity3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home1.day08_fragment.day08_activity4"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day08_activity4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day10_viewpager.day10_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day10_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day11_viewFlipper.day11_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day11_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day12_scrollview.day12_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day12_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day13_Gallery.day13_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day13_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home1.day14_SeekBar.day14_Activity"
+            android:theme="@style/TextAppearance.AppCompat.Medium.Inverse">
+            <intent-filter>
+                <action android:name="day14_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home1.day15.day15_Activity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+
+            >
+            <intent-filter>
+                <action android:name="day15_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home2.home2_day3_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home2.day3.home2_day3_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home2.home2_day4_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home2.home2_day4_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home2.home2_day5_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home2.home2_day5_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home2.home2_day6_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home2.home2_day6_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home2.home2_day7_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home2.home2_day7_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home2.home2_day8_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home2.home2_day8_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home3.home3_day0_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day0_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home3.home3_day1_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day1_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.day2.home3_day2_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day2_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.day3.home3_day3_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day3_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.day4.home3_day4_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day4_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.day5.home3_day5_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day5_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.day6.home3_day6_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day6_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.day7.home3_day7_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day7_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.home3_day8_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day8_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home3.home3_day9_activity"
+            android:theme="@style/Theme.AppCompat.DayNight"
+
+            >
+            <intent-filter>
+                <action android:name=".home3.home3_day9_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day1_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day1_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day2_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day2_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day3_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day3_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day4_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day4_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day5_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day5_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day6_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day6_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day7_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day7_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home4.home4_day8_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4.home4_day8_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home_huizong.home4_MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home4_MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home_huizong.home5_MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home5_MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home5.day1.home5_day1_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home5_day1_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home5.day2.home5_day2_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home5_day2_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home5.day3.home5_day3_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home5_day3_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home5.day4.home5_day4_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home5_day4_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home5.day5.home5_day5_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home5.day5.home5_day5_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home5.day6.home5_day6_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home5.day6.home5_day6_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home_huizong.home6_MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home_huizong.home6_MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home6.day1.home6_day1_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home6.day1.home6_day1_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home6.day2.home6_day2_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home6.day2.home6_day2_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home6.day3.home6_day3_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home6.day3.home6_day3_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home6.day4.home6_day4_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home6.day4.home6_day4_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home6.day5.home6_day5_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home6.day5.home6_day5_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home6.day2.home6_day2_imagetest_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home6.day2.home6_day2_imagetest_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home6.day2.home6_day2_progressbar_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home6.day2.home6_day2_progressbar_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home_huizong.home7_MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home_huizong.home7_MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home7.day1.home7_day1_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home7.day1.home7_day1_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home7.day1.ListActivity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home7.day1.ListActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home7.day1.MainActivity2"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home7.day1.MainActivity2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home7.day2.home7_day2_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home7.day2.home7_day2_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home7.day3.home7_day3_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home7.day3.home7_day3_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home7.day4.home7_day4_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home7.day4.home7_day4_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home7.day5.home7_day5_activity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home7.day5.home7_day5_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home_huizong.home8_MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home_huizong.home8_MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home_huizong.home9_MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home_huizong.home9_MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day1.home8_day1_activity_first"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home8.day1.home8_day1_activity_first" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day1.home8_day1_activity_second"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name=".home8.day1.home8_day1_activity_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home8.day2.home8_day2_activity_first"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day2_activity_first" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day2.home8_day2_activity_second"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="xlp_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day3.home8_day3_activity_first"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day3_activity_first" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".home8.day4.home8_day4_activity_first"
+            android:process=":home8_day4_activity_first"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day4_activity_first" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day5.home8_day5_activity_first"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day5_activity_first" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day3.home8_day3_activity_second"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day3_activity_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day4.home8_day4_activity_second"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day4_activity_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home8.day5.home8_day5_activity_second"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day5_activity_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home9.day1.home9_day1_activity1_"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day5_activity_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home9.day1.home9_day1_activity2_"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day5_activity_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home9.day1.home9_day1_activity3_"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <intent-filter>
+                <action android:name="home8_day5_activity_second" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home_huizong.home10_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home11_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home12_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+            ></activity>
+        <activity
+            android:name=".home_huizong.home13_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home14_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home15_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home16_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home17_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home18_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home19_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home_huizong.home20_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home10.day1.home10_day1_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home11.day1.home11_day1_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day2.home11_day2_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day3.home11_day3_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day4.home11_day4_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day5.home11_day5_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day6.home11_day6_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day7.home11_day7_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day8.home11_day8_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home12.day1.home12_day1_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day2.home12_day2_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".home12.day3.home12_day3_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day4.home12_day4_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day5.home12_day5_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day6.home12_day6_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day7.home12_day7_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day8.home12_day8_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".TestActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+
+
+
+        <!--静态注册-->
+        <receiver android:name=".home3.day5.BC1">
+            <intent-filter android:priority="200">
+                <action android:name="BC1" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".home3.day5.BC2">
+            <intent-filter android:priority="100">
+                <action android:name="BC1" />
+            </intent-filter>
+        </receiver>
+
+
+        <service android:name=".home3.day6.MyStartService" />
+        <service android:name=".home3.day6.MyBindService" />
+        <service android:name=".home9.day1.MyService" />
+    </application>
+
+</manifest>

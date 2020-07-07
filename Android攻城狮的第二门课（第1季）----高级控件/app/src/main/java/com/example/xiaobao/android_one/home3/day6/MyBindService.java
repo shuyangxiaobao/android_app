@@ -39,6 +39,12 @@ static String TAG = "MyBindService";
 
     }
 
+    @Override
+    public boolean onUnbind(Intent intent) {
+        Log.i(TAG, "onUnbind: ");
+        return super.onUnbind(intent);
+    }
+
     public class MyBinder extends Binder{
         public MyBindService getService() {
             return MyBindService.this;
