@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.example.xiaobao.xiaobaokotlin.R;
 
@@ -26,12 +27,14 @@ public class home12_day1_activity extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        setContentView(R.layout.home12_day1_firstview);
         super.onCreate(savedInstanceState);
     }
 
     @AfterViews
     public void init(){
-
+        System.out.println("23423");
+        Toast.makeText(this, "890", Toast.LENGTH_SHORT).show();
 
     }
 }

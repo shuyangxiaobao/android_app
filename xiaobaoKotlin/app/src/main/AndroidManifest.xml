@@ -835,6 +835,11 @@
         </activity>
 
         <activity
+            android:name=".home9.day1.home9_day1_activity1"
+            android:theme="@style/Theme.AppCompat.DayNight">
+        </activity>
+
+        <activity
             android:name=".home9.day1.home9_day1_activity2_"
             android:theme="@style/Theme.AppCompat.DayNight">
             <intent-filter>
@@ -889,8 +894,79 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
 
         <activity
+            android:name=".home10.day1.home10_day1_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home11.day1.home11_day1_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day2.home11_day2_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day3.home11_day3_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day4.home11_day4_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day5.home11_day5_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day6.home11_day6_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day7.home11_day7_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day8.home11_day8_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+
+        <activity
             android:name=".home10.day1.home10_day1_activity_"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".home11.day1.home11_day1_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day2.home11_day2_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day3.home11_day3_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day4.home11_day4_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day5.home11_day5_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day6.home11_day6_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day7.home11_day7_activity_"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+        <activity
+            android:name=".home11.day8.home11_day8_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+
+
+
+
         <activity
             android:name=".home11.day1.home11_day1_activity_"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
@@ -923,10 +999,51 @@
             android:name=".home11.day8.home11_day8_activity_"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
 
+
+
+
+        <activity
+            android:name=".home12.day1.home12_day1_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".home12.day2.home12_day2_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".home12.day3.home12_day3_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day4.home12_day4_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day5.home12_day5_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day6.home12_day6_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day7.home12_day7_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home12.day8.home12_day8_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+
+
         <activity
             android:name=".home12.day1.home12_day1_activity_"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
+
         <activity
             android:name=".home12.day2.home12_day2_activity_"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -962,7 +1079,88 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
 
+        <activity
+            android:name=".home13.day1.home13_day1_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
 
+        <activity
+            android:name=".home13.day2.home13_day2_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day3.home13_day3_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".home13.day4.home13_day4_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day5.home13_day5_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day6.home13_day6_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day7.home13_day7_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day8.home13_day8_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day9.home13_day9_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day10.home13_day10_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day11.home13_day11_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day12.home13_day12_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day13.home13_day13_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day14.home13_day14_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day15.home13_day15_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day16.home13_day16_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day17.home13_day17_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day18.home13_day18_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day19.home13_day19_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".home13.day20.home13_day20_activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
 
 
         <!--静态注册-->

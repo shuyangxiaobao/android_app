@@ -26,6 +26,8 @@ public class home12_day2_activity extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        setContentView(R.layout.home12_day2_firstview);
+
         super.onCreate(savedInstanceState);
     }
 

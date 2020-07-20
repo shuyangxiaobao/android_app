@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
         arr_data!!.add("home10：Volley框架")
         arr_data!!.add("home11：各种类型Drawable讲解")
         arr_data!!.add("home12：Canvas 绘图 和矩阵变换")
-        arr_data!!.add("home13：")
+        arr_data!!.add("home13：kotlin 语法")
         arr_data!!.add("home14：")
         arr_data!!.add("home15：")
         arr_data!!.add("home16：")
